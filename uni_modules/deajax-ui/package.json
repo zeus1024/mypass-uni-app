@@ -1,0 +1,84 @@
+{
+	"id": "deajax-ui",
+	"name": "deajax-ui",
+	"displayName": "模仿vant的uni组件",
+	"version": "0.3.17",
+	"description": "根据vant组件的属性和样式，模仿自写的uni组件",
+	"keywords": [
+        "vant",
+        "cell",
+        "tab",
+        "tabs",
+        "shop"
+    ],
+	"repository": "https://github.com/deajax/uni-vant.git",
+    "engines": {
+	},
+	"dcloudext": {
+		"category": [
+			"前端组件",
+			"通用组件"
+		],
+		"sale": {
+			"regular": {
+				"price": "0.00"
+			},
+			"sourcecode": {
+				"price": "0.00"
+			}
+		},
+		"contact": {
+			"qq": ""
+		},
+		"declaration": {
+			"ads": "不包含任何广告",
+			"data": "不采集任何数据",
+			"permissions": "不需要任何权限"
+		},
+		"npmurl": ""
+	},
+	"uni_modules": {
+		"dependencies": [],
+		"encrypt": [],
+		"platforms": {
+			"cloud": {
+				"tcb": "y",
+				"aliyun": "y"
+			},
+			"client": {
+				"Vue": {
+					"vue2": "y",
+					"vue3": "n"
+				},
+				"App": {
+					"app-vue": "n",
+					"app-nvue": "n"
+				},
+				"H5-mobile": {
+					"Safari": "n",
+					"Android Browser": "n",
+					"微信浏览器(Android)": "n",
+					"QQ浏览器(Android)": "n"
+				},
+				"H5-pc": {
+					"Chrome": "n",
+					"IE": "n",
+					"Edge": "n",
+					"Firefox": "n",
+					"Safari": "n"
+				},
+				"小程序": {
+					"微信": "y",
+					"阿里": "y",
+					"百度": "u",
+					"字节跳动": "u",
+					"QQ": "u"
+				},
+				"快应用": {
+					"华为": "u",
+					"联盟": "u"
+				}
+			}
+		}
+	}
+}

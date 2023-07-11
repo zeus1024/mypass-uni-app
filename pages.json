@@ -1,0 +1,173 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：[url=https://uniapp.dcloud.io/collocation/pages]https://uniapp.dcloud.io/collocation/pages[/url]
+		{
+			"path": "pages/Wechat/index",
+			"style": {
+				"navigationBarTitleText": "微信",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"float": "right",
+								"fontSize": "18px",
+								"text": "\ueb89",
+								"fontSrc": "static/iconfont.ttf",
+								"width": "32px"
+							},
+							{
+								"float": "right",
+								"fontSize": "18px",
+								"text": "\ue651",
+								"fontSrc": "static/iconfont.ttf",
+								"width": "32px"
+							}
+						]
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/MaiLlist/index",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"float": "right",
+								"fontSize": "18px",
+								"text": "\ueb89",
+								"fontSrc": "static/iconfont.ttf",
+								"width": "32px"
+							},
+							{
+								"float": "right",
+								"fontSize": "18px",
+								"text": "\ue651",
+								"fontSrc": "static/iconfont.ttf",
+								"width": "32px"
+							}
+						]
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Find/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"float": "right",
+								"fontSize": "18px",
+								"text": "\ueb89",
+								"fontSrc": "static/iconfont.ttf",
+								"width": "32px"
+							},
+							{
+								"float": "right",
+								"fontSize": "18px",
+								"text": "\ue651",
+								"fontSrc": "static/iconfont.ttf",
+								"width": "32px"
+							}
+						]
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/My/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+
+			}
+		},
+		{
+			"path": "pages/Scut/index",
+			"style": {
+				"navigationBarTitleText": "华南理工大学",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"float": "right",
+							"fontSize": "18px",
+							"text": "\ueb78",
+							"fontSrc": "static/iconfont.ttf",
+							"width": "32px"
+						}]
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Scut/Mypass/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/Scut/Mypass/apply",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/My/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#14cc2d",
+		"backgroundColor": "#efefef",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/Wechat/index",
+			"text": "微信",
+			"iconPath": "static/img/tabbar/message.png",
+			"selectedIconPath": "static/img/tabbar/message_s.png"
+		}, {
+			"pagePath": "pages/MaiLlist/index",
+			"text": "通讯录",
+			"iconPath": "static/img/tabbar/mailList.png",
+			"selectedIconPath": "static/img/tabbar/mailList_s.png"
+		}, {
+			"pagePath": "pages/Find/index",
+			"text": "发现",
+			"iconPath": "static/img/tabbar/find.png",
+			"selectedIconPath": "static/img/tabbar/find_s.png"
+		}, {
+			"pagePath": "pages/My/index",
+			"text": "我的",
+			"iconPath": "static/img/tabbar/my.png",
+			"selectedIconPath": "static/img/tabbar/my_s.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#efefef",
+		"backgroundColor": "#efefef"
+		
+		
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			   "^uni-((?!(shadow-root|icons)).*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue" //这里排除了uni-shadow-root，uni-icons  
+		
+		}
+	}
+}
